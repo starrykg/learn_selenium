@@ -1,4 +1,7 @@
 一.环境搭建
+
+#免费的OCR文字识别库
+pip install ddddocr
 二.八大元素定位
 面试题：如果元素定位不到，怎么去分析
 2.Frame中
@@ -24,4 +27,16 @@ css定位：
     4.通过部分属性定位
     5.查询子元素定位
     6.查询兄弟节点定位
-        
+
+unittest使用
+1.新建一个累心继承unittest.TestCase
+2.导入unittest
+3.写一个test开头的方法
+
+unittest运行测试用力的大坑：
+1.命令行方式
+    python3 -m unittest  threeweb/unitest.py
+2.main方式
+    必须要配置环境，我个人不用
+
+unittest原理，selenium原理， ddt原理
