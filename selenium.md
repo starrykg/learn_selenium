@@ -40,3 +40,8 @@ unittest运行测试用力的大坑：
     必须要配置环境，我个人不用
 
 unittest原理，selenium原理， ddt原理
+
+frameset:框架集（忽略）
+frame（框架）
+iframe（子框架）
+driver.switch_to.frame("menu-frame")
